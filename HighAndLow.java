@@ -32,16 +32,16 @@ public class HighAndLow {
       boolean loop = true;
       while(loop){
         try {
-    //   if(scanner.hasNextInt()){
         select = scanner.nextInt();
         loop = false;
         }catch (InputMismatchException e){
-          System.out.println("【Error】Please enter again.");
+          System.out.println("\n【Error】Please enter again.");
           scanner.next();
         }}
 
 
       Thread.sleep(1000);
+      System.out.println("\n");
       System.out.println("*---------*       *---------*");
       System.out.println("|         |       |         |");
       System.out.println("|    " +leftCard+"    |       |    "+rightCard+"    |");

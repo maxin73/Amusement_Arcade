@@ -41,7 +41,7 @@ public class OnlineShop {
         System.out.println("===============");
 
         Thread.sleep(1000);
-        System.out.println("Which item do you wanna buy?");
+        System.out.println("Enter a value");
         option = scanner.next().charAt(0);
         System.out.println("\n");
 
